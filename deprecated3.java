@@ -12,7 +12,7 @@ public class deprecated3 {
     deprecated3(int a, int b, int c){
         System.out.println("This is a deprecated method");
     }
-    // TODO task 5
+    // TODO: task 5
     //new constructor
     deprecated3(float d, int e, float f){
         System.out.println(d+f);
