@@ -11,6 +11,7 @@ public class deprecated3 {
 //old constructor
     deprecated3(int a, int b, int c){
         System.out.println("This is a deprecated method");
+         System.out.println(" TODO: ");
     }
     // TODO: task 5
     //new constructor
