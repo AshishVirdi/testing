@@ -1,20 +1,30 @@
-// Java Hello World
-// changed
-// TODO: task 3
-public class another_class {
-    /* @deprecated The field num1 will be replaced by
-     * NewNum field
-     */
-    // TODO: task 2
+class DeprecatedDemo {
+        /**
+    * Method1
+    * .....
+    * @deprecated
+    * @return
+    */
     @Deprecated
-    int num1 = 10;
-    //new field
-    final int NewNum = 10;
-    // TODO: task 4
-    public static void main(String[] a){
-        //create an object for the class
-        another_class obj = new another_class();
-        //print num
-        System.out.println(obj.num1);
+    int num = 10;
+
+    final int MAX_NUM = 10;
+
+    /** @deprecated As of release 1.5, replaced 
+     * by myMsg2(String msg, String msg2)
+     */
+    @Deprecated
+    public void myMsg() {
+        System.out.println("This method is marked as deprecated");
+    }
+
+    public void myMsg2(String msg, String msg2) {
+        System.out.println(msg + msg2);
+    }
+
+    public static void main(String a[]) {
+        DeprecatedDemo obj = new DeprecatedDemo();
+        obj.myMsg();
+        System.out.println(obj.num);
     }
 }
