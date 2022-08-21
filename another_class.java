@@ -10,9 +10,14 @@ class DeprecatedDemo {
 
     final int MAX_NUM = 10;
 
-    /** @deprecated As of release 1.5, replaced 
-     * by myMsg2(String msg, String msg2)
-     */
+    /**
+  * ... <snip> ...
+  *
+  * @deprecated in drupal:8.6.0 and is removed from drupal:9.0.0. Use
+  *   mb_strlen() instead.
+  *
+  * @see https://www.drupal.org/node/2850048
+  */
     @Deprecated
     public void myMsg() {
         System.out.println("This method is marked as deprecated");
