@@ -1,5 +1,5 @@
 public class deprecated {
-    /* @deprecated The function method1 will be replaced by method2
+    /** @deprecated The function method1 will be replaced by method2
      */
     @Deprecated
     //old method
