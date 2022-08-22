@@ -1,3 +1,4 @@
+// TODO: Correct the code
 public class deprecated3 {
     /* @deprecated The field num1 will be replaced by
      * newnum field
