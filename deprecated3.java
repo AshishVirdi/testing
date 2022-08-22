@@ -1,4 +1,4 @@
-// TODO: Correct the code
+
 public class deprecated3 {
     /* @deprecated The field num1 will be replaced by
      * newnum field
@@ -19,6 +19,8 @@ public class deprecated3 {
     deprecated3(float d, int e, float f){
         System.out.println(d+f);
     }
+    
+    // TODO: Correct the code
     public static void main(String[] a){
 //class object
         deprecated3 obj = new deprecated3(newnum, newnum, newnum);
