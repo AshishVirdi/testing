@@ -2,7 +2,8 @@ public class deprecated {
     /**
  * @deprecated  As of release 1.3, replaced by {@link #getPreferredSize()}
  */
-    @Deprecated public Dimension preferredSize() {
+    @Deprecated 
+    public Dimension preferredSize() {
     return getPreferredSize();
     }
     @Deprecated
